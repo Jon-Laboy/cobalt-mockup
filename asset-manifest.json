@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/cobalt-mockup/static/css/main.85a9b760.chunk.css",
+    "main.js": "/cobalt-mockup/static/js/main.ce6307f2.chunk.js",
+    "main.js.map": "/cobalt-mockup/static/js/main.ce6307f2.chunk.js.map",
+    "runtime-main.js": "/cobalt-mockup/static/js/runtime-main.586fd1f0.js",
+    "runtime-main.js.map": "/cobalt-mockup/static/js/runtime-main.586fd1f0.js.map",
+    "static/js/2.ab5809ac.chunk.js": "/cobalt-mockup/static/js/2.ab5809ac.chunk.js",
+    "static/js/2.ab5809ac.chunk.js.map": "/cobalt-mockup/static/js/2.ab5809ac.chunk.js.map",
+    "index.html": "/cobalt-mockup/index.html",
+    "static/css/main.85a9b760.chunk.css.map": "/cobalt-mockup/static/css/main.85a9b760.chunk.css.map",
+    "static/js/2.ab5809ac.chunk.js.LICENSE.txt": "/cobalt-mockup/static/js/2.ab5809ac.chunk.js.LICENSE.txt",
+    "static/media/cob.9c3438da.png": "/cobalt-mockup/static/media/cob.9c3438da.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.586fd1f0.js",
+    "static/js/2.ab5809ac.chunk.js",
+    "static/css/main.85a9b760.chunk.css",
+    "static/js/main.ce6307f2.chunk.js"
+  ]
+}
