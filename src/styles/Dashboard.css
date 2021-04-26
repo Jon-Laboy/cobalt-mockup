@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.home {
+  display: flex;
+  font-size: 3rem;
+}
+.dashboard-cards {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard-card {
+  box-shadow: 4px 4px 10px #3f51b5;
+  margin: 2rem;
+  width: 20rem;
+  height: 10rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+}
+.treasury-icon {
+  background: red;
+  color: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  padding: 4px;
+}
+.rewards-icon {
+  background: green;
+  color: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  padding: 4px;
+}
+.thumb-icon {
+  background: blue;
+  color: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  padding: 4px;
+  margin-left: 0.139rem;
+}
+.clock-icon {
+  background: orange;
+  color: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  padding: 4px;
+}
+.card-amount {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.cobalt-card {
+  box-shadow: 4px 4px 10px #3f51b5;
+  margin: 2rem;
+  width: 20rem;
+  height: 12rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.cobalt-card-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 3px;
+}
+.cobalt-img {
+  width: 4rem;
+  height: 4rem;
+}
+.cobalt-prices {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1rem;
+  padding: 1rem;
+}
+.side-bar {
+  background-color: white;
+  width: 280px;
+  height: 100vh;
+  top: 0;
+  box-shadow: 2px 2px 20px #3f51b5;
+}
+
+.side-bar li a {
+  color: #060b26;
+}
+.side-bar li a:hover {
+  background: #3f51b5;
+  color: white;
+}
+@media (min-width: 768px) {
+  .dashboard-card {
+    width: 18rem;
+  }
+}
+@media (max-width: 992px) {
+  .side-bar {
+    display: none;
+  }
+}
+@media (min-width: 2009px) {
+  .side-bar {
+    left: 0;
+    position: fixed;
+    margin-top: 80px;
+  }
+}
